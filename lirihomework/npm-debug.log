@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'http://www.omdbapi.com/?' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData http://www.omdbapi.com/?
+8 silly fetchOtherPackageData http://www.omdbapi.com/?
+9 silly cache add args [ 'http://www.omdbapi.com/?', null ]
+10 verbose cache add spec http://www.omdbapi.com/?
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'http://www.omdbapi.com/?',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'http://www.omdbapi.com/?',
+11 silly cache add   spec: 'http://www.omdbapi.com/?',
+11 silly cache add   type: 'remote' }
+12 silly mapToRegistry name http://www.omdbapi.com/?
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'http://www.omdbapi.com/?',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   escapedName: null,
+15 silly mapToRegistry   name: null,
+15 silly mapToRegistry   rawSpec: 'http://www.omdbapi.com/?',
+15 silly mapToRegistry   spec: 'http://www.omdbapi.com/?',
+15 silly mapToRegistry   type: 'remote' }
+16 silly mapToRegistry uri http://www.omdbapi.com/?
+17 verbose addRemoteTarball http://www.omdbapi.com/? not in flight; adding
+18 verbose addRemoteTarball [ 'http://www.omdbapi.com/?', null ]
+19 info retry fetch attempt 1 at 10:55:04 PM
+20 info attempt registry request try #1 at 10:55:04 PM
+21 http fetch GET http://www.omdbapi.com/?
+22 verbose request id ab744327d4bda383
+23 http fetch 200 http://www.omdbapi.com/?
+24 silly fetchAndShaCheck shasum de6420740e412a67be0e8d229430f462170869b5
+25 verbose addTmpTarball C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\www.omdbapi.com\_3F not in flight; adding
+26 verbose correctMkdir C:\Users\lakayla\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 verbose addTmpTarball validating metadata from C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\www.omdbapi.com\_3F
+28 verbose tar unpack C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\www.omdbapi.com\_3F
+29 verbose tar unpacking to C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29
+30 silly gentlyRm C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29 is being purged
+31 verbose gentlyRm don't care about contents; nuking C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29
+32 silly gunzTarPerm modes [ '777', '666' ]
+33 error not a package C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\www.omdbapi.com\_3F
+34 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29\package.json'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData  error for http://www.omdbapi.com/? { Error: ENOENT: no such file or directory, open 'C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29\package.json'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData   errno: -4058,
+34 silly fetchPackageMetaData   code: 'ENOENT',
+34 silly fetchPackageMetaData   syscall: 'open',
+34 silly fetchPackageMetaData   path: 'C:\\Users\\lakayla\\AppData\\Local\\Temp\\npm-5260-9bb773ad\\unpack-86029a29\\package.json' }
+35 silly rollbackFailedOptional Starting
+36 silly rollbackFailedOptional Finishing
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29\package.json'
+39 verbose stack     at Error (native)
+40 verbose cwd C:\Users\lakayla\documents\lirihomework
+41 error Windows_NT 10.0.14393
+42 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "http://www.omdbapi.com/?"
+43 error node v6.9.1
+44 error npm  v3.10.8
+45 error path C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29\package.json
+46 error code ENOENT
+47 error errno -4058
+48 error syscall open
+49 error enoent ENOENT: no such file or directory, open 'C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29\package.json'
+50 error enoent ENOENT: no such file or directory, open 'C:\Users\lakayla\AppData\Local\Temp\npm-5260-9bb773ad\unpack-86029a29\package.json'
+50 error enoent This is most likely not a problem with npm itself
+50 error enoent and is related to npm not being able to find a file.
+51 verbose exit [ -4058, true ]
